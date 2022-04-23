@@ -104,10 +104,45 @@ header .image {
     font-weight: 300;
     font-style: italic;
     color: #1f2937;
+    margin-top: 50px;
     margin-bottom: 0;
 }
 .quote div {
     font-weight: bold;
     align-self: flex-end;
     margin-right: 25%;
+    margin-bottom: 50px;
+}
+.advert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.advert .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+    background: #3882f6;
+    width: 1000px;
+    height: 150px;
+    color: #F9FAF8;
+}
+.advert p {
+    margin: 0;
+}
+.advert h2 {
+    margin: 0;
+}
+.advert button {
+    width: 110px;
+    height: 35px;
+    border: 2px solid #F9FAF8;
+    border-radius: 7px;
+    background: #3882f6;
+    color: #F9FAF8;
+    font-size: 14px;
+    font-weight: bold;
 }
