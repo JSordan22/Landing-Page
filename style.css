@@ -9,13 +9,13 @@ body {
 header {
     background: #1f2937;
     color: #F9FAF8;
-    padding: 0 10%;
 }
 header .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: 50px;
+    gap: 350px;
 }
 header .navbar .logo {
     font-size: 24px;
@@ -35,7 +35,7 @@ header .navbar ul {
 header .intro {
     height: 400px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 header .intro .text h1 {
@@ -145,4 +145,15 @@ header .image {
     color: #F9FAF8;
     font-size: 14px;
     font-weight: bold;
+}
+footer {
+    background: #1f2937;
+    color: #F9FAF8;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    margin: 0;
 }
